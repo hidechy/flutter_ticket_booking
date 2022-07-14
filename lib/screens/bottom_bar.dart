@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:fluentui_icons/fluentui_icons.dart';
+import 'package:test_booktickets/screens/search_screen.dart';
 
 import 'home_screen.dart';
 
@@ -16,7 +17,7 @@ class _BottomBarState extends State<BottomBar> {
 
   static final List<Widget> _widgetOptions = [
     const HomeScreen(),
-    const Text("search"),
+    const SearchScreen(),
     const Text("ticket"),
     const Text("profile")
   ];
